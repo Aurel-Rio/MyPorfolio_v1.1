@@ -2,7 +2,7 @@
 <?php
     include 'head.php';
 ?>
-<body>
+<body id="body">
 <?php
     include 'navbar.php';
     include 'anim.php';
@@ -14,3 +14,7 @@
     include 'footer.php';
 ?>
 </body>
+
+<?php
+
+?>

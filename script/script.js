@@ -19,7 +19,11 @@ const sectionMyCv = document.getElementById('my_cv');
 const sectionMyTitle = document.getElementById('my_title');
 const button = document.getElementById('button_arrow_down_change_data');
 const myPorfolioGenerator =  document.getElementById('my_porfolio_generator');
+const formConnexion = document.getElementById('form_connexion');
+const formRegister = document.getElementById('form_register');
 const footerLinkGit = document.getElementById('footer_link_git');
+
+
 
 const animatedTexts = document.querySelectorAll('.animated_text'); 
 
@@ -40,6 +44,8 @@ let clickedOnArrowDownCircle = 0;
 /*-Variable de compteur de click sur le arrowDownCircle qui permet de basculer de vue mobile à écran large-*/
 let clickedOnRespociveIcon = true;
 
+
+
 /*------- On gére l'affichage des pages avec des évènements d'écoute -------*/
 /*--------------------------------------------------------------------------*/
 /*			                     Page d'accueil             	            */
@@ -47,11 +53,13 @@ let clickedOnRespociveIcon = true;
 function displayHome() {    /* Lien Home de la navbar */
     navLi[0].addEventListener('click', (e) => {
         sectionHome.style.display = 'block';
+        sectionHome.style.animation = 'none';
         sectionMyCv.style.display = 'none';
         sectionMyTitle.style.display = 'none';
         myRealisationsPage.style.display = 'none';
         myPorfolioGenerator.style.display = 'none';
-        sectionHome.style.animation = 'none';
+        formConnexion.style.display = "none";
+        formRegister.style.display = "none";
     });
 };
 
@@ -66,6 +74,8 @@ function displayMyCv() {
         sectionMyTitle.style.display = 'none';
         myRealisationsPage.style.display = 'none';
         myPorfolioGenerator.style.display = 'none';
+        formConnexion.style.display = "none";
+        formRegister.style.display = "none";
     });
 };
 
@@ -79,7 +89,9 @@ function displayMyTitle() {
         sectionMyCv.style.display = 'none';
         sectionMyTitle.style.display = 'block';
         myRealisationsPage.style.display = 'none';
-        myPorfolioGenerator.style.display = 'none';
+        myPorfolioGenerator.style.displstateSelectay = 'none';
+        formConnexion.style.display = "none";
+        formRegister.style.display = "none";
     });
 };
 
@@ -100,6 +112,8 @@ function displayMyRealisations() {
         sectionMyCv.style.display = 'none';
         sectionMyTitle.style.display = 'none';
         myPorfolioGenerator.style.display = 'none';
+        formConnexion.style.display = "none";
+        formRegister.style.display = "none";
         myRealisationsPage.style.display = 'initial';
         myRealisationsElements[1].innerHTML = `<object  data="../utils/sites_availables/iss09_php_version/index.php" type="text/html" style="width:100%; height:100%; "></object>`;
         myRealisationsElements[1].style.border = '5px solid grey';
@@ -211,8 +225,14 @@ function MyPorfioloGenerator () {
         sectionMyCv.style.display = 'none';
         sectionMyTitle.style.display = 'none';
         myRealisationsPage.style.display = 'none';
+        formConnexion.style.display = "block";
+        formRegister.style.display = "block";
+
     })
 };
+
+
+
 
 //Timer sur le logo d'accueil Animation d'intoduction
 function firstLogoOff() {
@@ -290,5 +310,6 @@ displayMyCv();
 displayMyTitle();
 responciveIconOnClick(); 
 MyPorfioloGenerator();
+
 
 

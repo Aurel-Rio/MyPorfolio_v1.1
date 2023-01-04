@@ -22,6 +22,13 @@
 }
 
 #form_connexion{
-    margin-top: 140vh;  
-    margin-bottom: 500px;
+    margin-top: 90vh;  
 }
+#margin{
+    position: absolute;
+    top: 150vh;
+    height: 1px;
+    width: 100%;
+    background-color: transparent;
+}
+

@@ -1,29 +1,35 @@
 
-    <!--Page : My_porfolio generator     FEATURE Wor in progress-->
+<?php
+
+include '../controllers/userRegister.php';
+?>
+
+
+<!--Page : My_porfolio generator     FEATURE Wor in progress-->
 <section id="my_porfolio_generator">
     <p id="anim_work_in_progress">
         WORK IN PROGRESS
     </p>
 </section>
 
-<!--
+
 <div align="center">
     <form name="form_register" id="form_register" class="displayAll" action="" method="post">
         <h2>Formulaire d'inscription</h2>
         <div id="line"></div>
-        <label for="nom">Nom:</label><br />
-        <input type="text" id="nom" name="nom" maxlength="20" value="riozacki" required><br />
-        <label for="prenom">Prènom:</label><br />
-        <input type="text" id="prenom" name="prenom" maxlength="20" value="rio" required><br />
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" maxlength="20" value="riozacki" required><br />
+        <label for="first_name">First-name:</label><br />
+        <input type="text" id="first_name" name="first_name" maxlength="20" value="rio" required><br />
         <label for="mail">E-mail:</label><br />
         <input type="mail" id="mail" name="mail" maxlength="25" value="riozacki@gmx.com" required><br />
-        <label for="mailc">Confirmez votre E-mail:</label><br />
-        <input type="mail" id="mailc" name="mailc" maxlength="25" value="riozacki@gmx.com" required><br />
-        <label for="mdp">Mot de passe:</label><br />
-        <input type="password" id="mdp" name="mdp" maxlength="150" value="123456" required><br />
-        <label for="mdpc">Confirmer mot de passe:</label><br />
-        <input type="password" id="mdpc" name="mdpc" maxlength="150" required><br />
-        <input type="submit" id="register" name="formRegister" value="S'inscrire"><br />
+        <label for="mailConfirm">E-mail confirm:</label><br />
+        <input type="mail" id="mailConfirm" name="mailConfirm" maxlength="25" value="riozacki@gmx.com" required><br />
+        <label for="password">Password:</label><br />
+        <input type="password" id="password" name="password" maxlength="150" value="123456" required><br />
+        <label for="passwordConfirm">Password confirm:</label><br />
+        <input type="password" id="passwordConfirm" name="passwordConfirm" maxlength="150" required><br />
+        <input type="submit" id="register" name="formRegister" value="Start"><br />
     </form>
 </div>
 
@@ -43,4 +49,4 @@
         </div>
     </form>
 </div>
--->
+<div id="margin"></div>

@@ -1,7 +1,7 @@
 <!--Navbar-->
 
 <header>
-    <nav class="navbar">
+    <nav class="navbar" id="navbar">
         <h3 class="animated_text">My Porfolio</h3>
         <h3 class="animated_text">Servant Aurélien</h3>
         <ul id="nav_ul" class="navbar__links">
