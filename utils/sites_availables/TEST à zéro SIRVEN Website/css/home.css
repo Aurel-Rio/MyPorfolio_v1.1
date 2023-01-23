@@ -19,7 +19,7 @@ img.active {
 
 img {
     height: 80vh;
-    width: 100%;
+    width: 80vw;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;

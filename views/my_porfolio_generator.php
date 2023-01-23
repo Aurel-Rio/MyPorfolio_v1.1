@@ -1,4 +1,3 @@
-
 <?php
 
 include '../controllers/userRegister.php';
@@ -37,16 +36,51 @@ include '../controllers/userRegister.php';
     <form action="" method="post" id="form_connexion">
         <h2>Formulaire de connexion</h2><br />
         <div id="line">
-        <label for="nom">Entrez votre Nom:</label><br />
-        <input pattern="[A-Za-z0-9]+"type="text" value="joss09site" name="nom" maxlength="20" required><br />
-        <label for="mail">E-mail:</label><br />
-        <input type="mail" value="joss@gmx.fr" name="mail" id="mail" maxlength="25" required><br />
-        <label for="mdp">Mot de passe:</label><br />
-        <input pattern="[A-Za-z0-9]+"type="password" value="joss19231875" name="mdp" maxlength="150" required><br />
-        <label for="mdpc">Confirmer mot de passe:</label><br />
-        <input type="password" id="mdpc" name="mdpc" maxlength="150" required><br />
-        <input pattern="[A-Za-z0-9]+" type="submit" name="connexion" id="login" value="Se connecter">
+            <label for="nom">Entrez votre Nom:</label><br />
+            <input pattern="[A-Za-z0-9]+" type="text" value="joss09site" name="nom" maxlength="20" required><br />
+            <label for="mail">E-mail:</label><br />
+            <input type="mail" value="joss@gmx.fr" name="mail" id="mail" maxlength="25" required><br />
+            <label for="mdp">Mot de passe:</label><br />
+            <input pattern="[A-Za-z0-9]+" type="password" value="joss19231875" name="mdp" maxlength="150" required><br />
+            <label for="mdpc">Confirmer mot de passe:</label><br />
+            <input type="password" id="mdpc" name="mdpc" maxlength="150" required><br />
+            <input pattern="[A-Za-z0-9]+" type="submit" name="connexion" id="login" value="Se connecter">
         </div>
     </form>
+</div>
+
+<div id="scroll-container">
+    <div id="text-container">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Sed auctor, magna id faucibus malesuada, justo ipsum malesuada
+        tellus, id congue ipsum erat non quam. Sed tincidunt,
+        ligula eu dictum viverra, turpis mauris pharetra augue,
+        id bibendum lorem ante vel elit.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Sed auctor, magna id faucibus malesuada, justo ipsum malesuada
+        tellus, id congue ipsum erat non quam. Sed tincidunt,
+        ligula eu dictum viverra, turpis mauris pharetra augue,
+        id bibendum lorem ante vel elit.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Sed auctor, magna id faucibus malesuada, justo ipsum malesuada
+        tellus, id congue ipsum erat non quam. Sed tincidunt,
+        ligula eu dictum viverra, turpis mauris pharetra augue,
+        id bibendum lorem ante vel elit.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Sed auctor, magna id faucibus malesuada, justo ipsum malesuada
+        tellus, id congue ipsum erat non quam. Sed tincidunt,
+        ligula eu dictum viverra, turpis mauris pharetra augue,
+        id bibendum lorem ante vel elit.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Sed auctor, magna id faucibus malesuada, justo ipsum malesuada
+        tellus, id congue ipsum erat non quam. Sed tincidunt,
+        ligula eu dictum viverra, turpis mauris pharetra augue,
+        id bibendum lorem ante vel elit.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Sed auctor, magna id faucibus malesuada, justo ipsum malesuada
+        tellus, id congue ipsum erat non quam. Sed tincidunt,
+        ligula eu dictum viverra, turpis mauris pharetra augue,
+        id bibendum lorem ante vel elit.
+    </div>
 </div>
 <div id="margin"></div>

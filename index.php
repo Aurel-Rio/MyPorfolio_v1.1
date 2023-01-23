@@ -1,8 +1,9 @@
-<DOCTYPE html>
-<html>
 <?php
 header('Location: views/index.php');
 ?>
-</html>
+<DOCTYPE html>
+    <html>
 
-<!--Developped by SERVANT Aurélien 2022-->
+    </html>
+
+    <!--Developped by SERVANT Aurélien 2022-->

@@ -117,4 +117,7 @@
     .show-nav .six {
         transition: all 1.5s ease-out;
     }
+    img{
+        width: 400px;
+    }
 }

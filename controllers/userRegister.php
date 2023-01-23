@@ -18,15 +18,12 @@ if (isset($_POST['formRegister'])) {
         && !empty($_POST['password'])
         && !empty($_POST['passwordConfirm'])
     ) {
-
         $name = trim($_POST['name']);
         $first_name = trim($_POST['first_name']);
         $mail = trim($_POST['mail']);
         $mailConfirm = trim($_POST['mailConfirm']);
         $password = trim($_POST['password']);
         $passwordConfirm = trim($_POST['passwordConfirm']);
-
-
 
         if ($password !== $passwordConfirm) {
             $errors['mdp'] = "PHP -> Les mots de passent ne correspondent pas !";
@@ -49,7 +46,6 @@ if (isset($_POST['formRegister'])) {
                 $verifMail = htmlspecialchars(strip_tags($mail));
                 $verifFirst_name = htmlspecialchars(strip_tags($first_name));
     
-
                 $newUser = new Users();
 
                 $newUser->setName($verifName);
@@ -95,4 +91,3 @@ if (isset($_POST['formRegister'])) {
         header("Location: ../views/indexUser.php");
     }
 }
-?>

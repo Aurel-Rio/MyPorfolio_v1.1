@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="../style/my_porfolio_generator.css">
     <link rel="stylesheet" href="../style/footer.css">
     <link rel="stylesheet" href="../style/responcive.css">
+     <link rel="icon" type="image/gif" href="../style/img/favicon.png" />
     <script defer src="../script/script.js"></script>
     <title>My Porfolio</title>
 </head>
