@@ -208,7 +208,7 @@ footerLinkGit.addEventListener("mouseover", (e) => {
   footerLinkGit.style.cursor = "pointer";
   e.preventDefault();
   footerLinkGit.addEventListener("click", (e) => {
-    window.open("https://github.com/riozacki");
+    window.open("https://github.com/Aurel-Rio");
     e.preventDefault();
   });
 });
@@ -231,8 +231,8 @@ function MyPorfioloGenerator() {
     sectionMyCv.style.display = "none";
     sectionMyTitle.style.display = "none";
     myRealisationsPage.style.display = "none";
-    formConnexion.style.display = "block";
-    formRegister.style.display = "block";
+    formConnexion.style.display = "none";
+    formRegister.style.display = "none";
     document.documentElement.style.overflow = "initial";
   });
 }

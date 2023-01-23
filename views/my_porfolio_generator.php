@@ -41,7 +41,7 @@ include '../controllers/userRegister.php';
             <label for="mail">E-mail:</label><br />
             <input type="mail" value="joss@gmx.fr" name="mail" id="mail" maxlength="25" required><br />
             <label for="mdp">Mot de passe:</label><br />
-            <input pattern="[A-Za-z0-9]+" type="password" value="joss19231875" name="mdp" maxlength="150" required><br />
+            <input pattern="[A-Za-z0-9]+" type="password" value="s" name="mdp" maxlength="150" required><br />
             <label for="mdpc">Confirmer mot de passe:</label><br />
             <input type="password" id="mdpc" name="mdpc" maxlength="150" required><br />
             <input pattern="[A-Za-z0-9]+" type="submit" name="connexion" id="login" value="Se connecter">
@@ -49,6 +49,7 @@ include '../controllers/userRegister.php';
     </form>
 </div>
 
+<!--
 <div id="scroll-container">
     <div id="text-container">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -83,4 +84,5 @@ include '../controllers/userRegister.php';
         id bibendum lorem ante vel elit.
     </div>
 </div>
+-->
 <div id="margin"></div>
